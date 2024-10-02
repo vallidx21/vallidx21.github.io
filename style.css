@@ -1,0 +1,116 @@
+.container {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-blend-mode: color-dodge;
+  }
+
+
+  .container{
+    padding:  15px;
+     margin: 20px auto; 
+     border: 3px solid black;
+      width: 1000px;
+      background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+      border-radius: 12px;
+  }
+
+
+.table {
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.section {
+    width: 33%;
+    padding: 20px;
+    vertical-align: top;
+    border-right: 1px solid black;
+}
+
+hr { 
+    width: 100%;
+    border: 1px solid black;
+}
+
+.section:last-child {
+    border-right: none;
+}
+
+.inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inner-table td {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.inner-table td:last-child {
+    border-bottom: none;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(39, 106, 187);
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+p, a {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li, .inner-table td {
+    padding-bottom: 10px;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+.section3 h4 {
+    padding: 10px;
+}
+
+.education li{
+    padding-bottom: 1px;
+}
+
+.box {
+  border: 1px solid;
+  width: 200px;
+  height: 120px;
+  margin: 40px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.none, #fix {
+  color: darkgrey;
+}
+

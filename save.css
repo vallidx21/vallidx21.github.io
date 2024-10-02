@@ -1,0 +1,37 @@
+.box {
+    border: 2px solid black;
+    width: 600px ;
+    padding: 15px ;
+    margin-left: 20px;
+    font-size: larger;
+    align-items: center;
+}
+
+h1 , nav, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    border: 1px solid black;
+    width: 100%;
+    padding: 0;
+}
+
+#flex {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.mix {
+    border: 1px solid;
+    width: 400px;
+    height: 150px;
+    margin: 40px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+.phase, nav, h3 {
+    text-align: center;
+}
